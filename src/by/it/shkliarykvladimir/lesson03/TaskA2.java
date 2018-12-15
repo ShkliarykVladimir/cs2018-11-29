@@ -1,4 +1,4 @@
-package by.it._tasks_.lesson03;
+package by.it.shkliarykvladimir.lesson03;
 
 /*
 Lesson 03. Task A2. Стихотворение
@@ -31,3 +31,5 @@ class TaskA2 {
         System.out.println("Мое любимое стихотворение:");
         System.out.println(a + "\n" + b + "\n" + c + "\n" + d + "\n");
     }
+
+}

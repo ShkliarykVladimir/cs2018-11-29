@@ -1,4 +1,4 @@
-package by.it._tasks_.lesson03;
+package by.it.shkliarykvladimir.lesson03;
 
 /*
 Lesson 03. Конвертер температуры
@@ -32,11 +32,16 @@ class TaskC1 {
     }
 
     public static double convertCelsiumToFahrenheit(int celsium) {
-        double tf = (9 * celsium + 160) / 5.0;
+        double tf = (9*celsium + 160)/5.0;
+
+
         return tf;
     }
 
 }
+
+
+
 
 
 //    public static void main(String[] args) {

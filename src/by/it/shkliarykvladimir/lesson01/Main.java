@@ -1,4 +1,4 @@
-package com.company;
+package by.it.shkliarykvladimir.lesson01;
 
 public class Main {
 
@@ -11,7 +11,7 @@ public class Main {
             binary = String.format("%8s",binary).replace(" ", "0");
             System.out.printf("%8s ",binary, i);
 
-            String ocral =Integer.toOctalString(i);
+            String octal =Integer.toOctalString(i);
             if (octal.length()>3) octal=octal.substring(octal.length() -3);
             octal = String.format("%3s",octal).replace(" ", "0");
             System.out.printf("%3s ",octal, i);

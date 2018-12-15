@@ -1,4 +1,4 @@
-package by.it._tasks_.lesson02;
+package by.it.shkliarykvladimir.lesson02;
 
 /* Нужно написать программу, которая вводит два числа с клавиатуры
 и выводит их сумму на экран в виде
@@ -14,13 +14,12 @@ Sum = 60
 import java.util.Scanner;
 
 class TaskC1 {
-    public static void main(String[] args) throws Exception
-    {
+    public static void main(String[] args) throws Exception {
         Scanner scanner = new Scanner(System.in);
         int N = scanner.nextInt();
         int maximum = 0;
 
-        if(N>0) {
+        if (N > 0) {
             for (int i = 0; i < 3; i++) {
                 int x = scanner.nextInt();
                 if (maximum < x) maximum = x;
@@ -30,3 +29,4 @@ class TaskC1 {
         }
     }
 
+}
